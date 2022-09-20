@@ -52,7 +52,7 @@ def extract(sP, dP):
             return dS
 
         else:
-            print('Destionation path is not exists.')
+            print('Destionation path is already exists.')
     else:
         print('Source path isn\'t exists. ')
 

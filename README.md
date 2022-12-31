@@ -15,12 +15,12 @@ Infinity Archive is a command line tool to archive files and folder by compressi
 	-e, --extract
 		Use this option to extract files from a compressed folder
 	-t, --tar
-		Use this option to set the comppress type to tar
+		Use this option to set the compression type to tar
 	-z, --zip
-		Use this option to set the comppress type to zip
+		Use this option to set the compression type to zip
 	-n, --no-hidden
 		Ignore all the hidden folders
-		
+
 ## EXAMPLES
 	infarc -c -t <source path> <destionation path>
 	infarc -c -z <source path> <destionation path>

@@ -1,7 +1,7 @@
 # INFINITY ARCHIVE
 ![InfinityArchiveLogo](https://cdn.pixabay.com/photo/2016/10/25/18/18/book-1769625_960_720.png)
 
-Infinity Archive is a command line tool to archive files and folder by compressing them.
+Infinity Archive is a command line tool to archive files and folders by compressing them. It's a stable and efficient backup tool. You use use -n to skip hidden folders and select more than 1 compression type.
 
 ## INSTALLATION
 1) ```curl -L https://github.com/dogaegeozden/infarc/releases/download/compressing/infarc.deb -o infarc.deb```

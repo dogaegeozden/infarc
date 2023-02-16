@@ -5,7 +5,7 @@ Infinity Archive is a command line tool to archive files and folders by compress
 
 ## INSTALLATION
 1) ```curl -L https://github.com/dogaegeozden/infarc/releases/download/compressing/infarc.deb -o infarc.deb```
-2) ```dpkg -i infarc.deb```
+2) ```sudo dpkg -i infarc.deb```
 
 ## OPTIONS 
 	-c, --compress

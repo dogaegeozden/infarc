@@ -17,7 +17,7 @@ Infinity Archive is a command line tool to archive files and folders by compress
 	-z, --zip
 		Use this option to set the compression type to zip
 	-n, --no-hidden
-		Ignore all hidden fildes and folders
+		Ignore all the hidden fildes and folders
 
 ## EXAMPLES
 	infarc -c -t <source path> <destionation path>

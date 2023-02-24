@@ -140,7 +140,7 @@ def compress(sP, dP, cT, nHC):
                 # Deleting the copied directory.
                 rmtree(tDP)
                 # Creating a string to inform the user about where he/she can find the archive.
-                infoS = f'Compressed folder is available in {dP}'
+                infoS = f'Compressed folder is available in {dP}.{cT}'
                 # Printing the information string.
                 print(infoS)
                 # Returning the information string.
@@ -151,7 +151,7 @@ def compress(sP, dP, cT, nHC):
                 # Creating an archive
                 make_archive(dP, cT, sP)
                 # Creating a string to inform the user about where he/she can find the archive.
-                infoS = f'Compressed folder is available in {dP}'
+                infoS = f'Compressed folder is available in {dP}.{cT}'
                 # Printing the information string.
                 print(infoS)
                 # Returning the information string.

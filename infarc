@@ -128,7 +128,7 @@ def compress(sP, dP, cT, nHC):
     # Checking if the source path is exists.
     if path.exists(sP) == True:
         # Checking if the destination path is exists.
-        if path.exists(f'{dP}.zip') == False:
+        if cT == "zip" and path.exists(f'{dP}.zip') == False or cT=="tar" and path.exists(f'{dP}.tar') == False:
             # Checking if the no hidden file choice is equal to True
             if nHC == True:
                 # Creating a directory path

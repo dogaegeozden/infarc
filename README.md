@@ -4,10 +4,8 @@
 Infinity Archive is a command line tool to archive files and folder by compressing them.
 
 ## INSTALLATION
-1) ```git clone https://github.com/tamrinotte/arcj.git```
-2) ```cd infarc```
-3) ```sudo cp infarc /usr/bin```
-4) ```sudo chown $USER:$USER /usr/bin/infarc && sudo chmod u+x /usr/bin/infarc```
+1) ```curl -L https://github.com/dogaegeozden/infarc/releases/download/compressing/infarc.deb -o infarc.deb```
+2) ```sudo dpkg -i infarc.deb```
 
 ## OPTIONS 
 	-c, --compress
@@ -19,7 +17,7 @@ Infinity Archive is a command line tool to archive files and folder by compressi
 	-z, --zip
 		Use this option to set the compression type to zip
 	-n, --no-hidden
-		Ignore all the hidden folders
+		Ignore all the hidden files and folders
 
 ## EXAMPLES
 	infarc -c -t <source path> <destionation path>
